@@ -14,6 +14,9 @@ use serde_json::Value;
 
 use crate::models::NightscoutBearer;
 
+mod documents;
+pub use documents::DeleteMode;
+
 // TODO: Don't mix const types.
 
 /// Bolus dedup window.
